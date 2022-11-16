@@ -1,0 +1,194 @@
+/*extra*/
+html{
+    background-color: white;
+}
+
+#Titulo{
+    color: tomato;
+}
+
+p.especial{
+    color: yellow;
+}
+
+p.Texto {
+    color: coral;
+}
+
+div p{
+    color: aquamarine;
+}
+
+div h2, div h3{
+    color: brown;
+}
+
+#Imagen{
+    border: 2px solid black;
+}
+
+/* * {
+    font-size: 24px;
+    color: white;
+}*/
+/*
+.Color{
+    color: #ff0000;
+}*/
+
+/*.Color{
+    color: rgb(0, 200, 150);
+}*/
+
+.Color{
+    /*border: 2px red solid;
+
+    Dashed
+    Dotted
+    ridge
+    double
+    outset
+    inset
+    solid
+    groove
+    none
+    */
+    border-style: solid;
+    border-color: red;
+    border-radius: 15px;
+    border-width: 4px;
+}
+
+#fondo{
+    background-color: rgba(255,0,0);
+    /*opacity: 0.67;*/
+    color: white;
+    background-image: url('Cara\ de\ roblox\ meme.jpg');
+    height: 470px;
+    background-size: 240px 240px;
+    background-repeat: repeat-y;
+    background-position: top;
+}
+
+.margen{
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: 2px solid white;
+    height: 200px;
+    width: 50px;
+    overflow: hidden;
+    outline: red solid 2px;
+}
+
+.text{
+    font-family: 'Sono', sans-serif;
+    text-align:  justify;
+    text-decoration: overline;
+    text-shadow: 10px 5px 8px red;
+}
+
+a:link{
+    color: blueviolet;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    color:  yellow;
+}
+
+a:active{
+    color: red;
+}
+
+ul{
+    background-color: cyan;
+    list-style-type: georgian;
+    /*padding-left: 0px;*/
+    /*list-style-position: inside;*/
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: solid 1px #eee;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+th{
+    background-color: tomato;
+    color:  white;
+}
+
+tr:nth-child(even){
+    background-color: #eee;
+}
+
+tr:hover{
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+tr:active{
+    background-color: gray;
+}
+
+span{
+    display: block;
+    /*display: none;
+    visibility: hidden;*/
+    max-width: 300px;
+    background-color: #f00;
+}
+
+.inline{
+    display: inline;
+}
+
+#position{
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}
+
+.left{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.right{
+    float: right;
+    width: 100px;
+}
+
+.container{
+    height: 200px;
+}
+
+.column{
+    margin: 0px;
+    padding: 10px 0px;
+    width: 33,3%;
+}
+
+.inline-block{
+    display: inline-block;
+    height: 55px;
+    background-color: red;
+}
+
+.center{
+    padding: 55px 0;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    background-color: aqua;
+}
