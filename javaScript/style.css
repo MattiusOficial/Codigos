@@ -1,0 +1,16 @@
+html{
+    background-color: darkslategrey;
+}
+#Titulo{
+    color: white;
+    background-color: #364552;
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem 1rem;
+    margin: -9px;
+}
+body{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
